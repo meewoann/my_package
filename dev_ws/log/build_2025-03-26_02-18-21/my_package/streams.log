@@ -1,0 +1,43 @@
+[0.027s] Invoking command in '/home/meewoan/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/meewoan/dev_ws/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/meewoan/dev_ws/install/my_package
+[0.136s] -- The C compiler identification is GNU 9.4.0
+[0.226s] -- The CXX compiler identification is GNU 9.4.0
+[0.238s] -- Check for working C compiler: /usr/bin/cc
+[0.381s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.382s] -- Detecting C compiler ABI info
+[0.533s] -- Detecting C compiler ABI info - done
+[0.546s] -- Detecting C compile features
+[0.547s] -- Detecting C compile features - done
+[0.553s] -- Check for working CXX compiler: /usr/bin/c++
+[0.706s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.708s] -- Detecting CXX compiler ABI info
+[0.866s] -- Detecting CXX compiler ABI info - done
+[0.882s] -- Detecting CXX compile features
+[0.883s] -- Detecting CXX compile features - done
+[0.889s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.928s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.928s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.163s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.208s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.356s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.360s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.362s] -- Added test 'lint_cmake' to check CMake code style
+[1.363s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.368s] -- Added test 'xmllint' to check XML markup files
+[1.382s] -- Configuring done
+[1.392s] -- Generating done
+[1.396s] -- Build files have been written to: /home/meewoan/dev_ws/build/my_package
+[1.410s] Invoked command in '/home/meewoan/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/meewoan/dev_ws/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/meewoan/dev_ws/install/my_package
+[1.413s] Invoking command in '/home/meewoan/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/meewoan/dev_ws/build/my_package -- -j2 -l2
+[1.509s] Invoked command in '/home/meewoan/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/meewoan/dev_ws/build/my_package -- -j2 -l2
+[1.545s] Invoking command in '/home/meewoan/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/meewoan/dev_ws/build/my_package
+[1.564s] -- Install configuration: ""
+[1.565s] -- Execute custom install script
+[1.566s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[1.567s]   ament_cmake_symlink_install_directory() can't find
+[1.567s]   '/home/meewoan/dev_ws/my_package/launch'
+[1.569s] Call Stack (most recent call first):
+[1.572s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[1.572s]   cmake_install.cmake:41 (include)
+[1.573s] 
+[1.573s] 
+[1.573s] Invoked command in '/home/meewoan/dev_ws/build/my_package' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/meewoan/dev_ws/build/my_package

@@ -1,0 +1,1 @@
+/home/meewoan/build/my_package/ament_cmake_environment_hooks/local_setup.bash
