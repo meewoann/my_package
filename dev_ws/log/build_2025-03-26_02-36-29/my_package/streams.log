@@ -1,0 +1,14 @@
+[0.028s] Invoking command in '/home/meewoan/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/meewoan/dev_ws/build/my_package -- -j2 -l2
+[0.102s] Invoked command in '/home/meewoan/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/meewoan/dev_ws/build/my_package -- -j2 -l2
+[0.126s] Invoking command in '/home/meewoan/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/meewoan/dev_ws/build/my_package
+[0.139s] -- Install configuration: ""
+[0.140s] -- Execute custom install script
+[0.143s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[0.143s]   ament_cmake_symlink_install_directory() can't find
+[0.143s]   '/home/meewoan/dev_ws/my_package/launch'
+[0.143s] Call Stack (most recent call first):
+[0.143s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.143s]   cmake_install.cmake:41 (include)
+[0.144s] 
+[0.144s] 
+[0.149s] Invoked command in '/home/meewoan/dev_ws/build/my_package' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/meewoan/dev_ws/build/my_package
